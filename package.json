@@ -1,0 +1,20 @@
+{
+  "name": "api_biblioteca_isaque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaque467/API_biblioteca_isaque.git"
+  },
+  "author": "Mallcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaque467/API_biblioteca_isaque/issues"
+  },
+  "homepage": "https://github.com/isaque467/API_biblioteca_isaque#readme"
+}
