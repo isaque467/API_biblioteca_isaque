@@ -4,4 +4,13 @@ const app = express();
 app.use(express.json());
 
 //Rotas
-const alunoRoutes = require('./routes/alunos');
+const alunosRoutes = require('./routes/alunos');
+app.use('/alunos', alunosRoutes);
+
+const emprestimosRoutes = require('./routes/emprestimos');
+app.use('/emprestimos', emprestimosRoutes);
+
+const livrosRoutes = require('./routes/alunos');
+app.use('/livros', livrosRoutes);
+
+module.exports = app;
