@@ -10,7 +10,7 @@ app.use('/alunos', alunosRoutes);
 const emprestimosRoutes = require('./routes/emprestimos');
 app.use('/emprestimos', emprestimosRoutes);
 
-const livrosRoutes = require('./routes/alunos');
+const livrosRoutes = require('./routes/livros');
 app.use('/livros', livrosRoutes);
 
 module.exports = app;
