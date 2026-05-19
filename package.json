@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/isaque467/API_biblioteca_isaque/issues"
   },
-  "homepage": "https://github.com/isaque467/API_biblioteca_isaque#readme"
+  "homepage": "https://github.com/isaque467/API_biblioteca_isaque#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3",
+    "nodemon": "^3.1.14"
+  }
 }
